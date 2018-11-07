@@ -35,10 +35,24 @@
 
 
 ## Usage
+### React层的存取
 ```javascript
 import RNStorage from 'qd-react-native-storage';
 
-// TODO: What to do with the module?
-RNStorage;
+// 存
+RNStorage.setStringForKey('test_string', 'test');
+// 取
+RNStorage.stringForKey('test').then((res) => {
+            
+});
+
 ```
-  
+### Native层的存取
+#### Android
+```
+// 存
+RNStorageModule.setStringForKey("test_string", "test");
+// 取
+RNStorageModule.getString("test");
+```
+### 另外，最有用之处在于可以React层存，Native层取，反之亦可以
