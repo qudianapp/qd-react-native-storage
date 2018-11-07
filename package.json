@@ -1,0 +1,33 @@
+{
+  "name": "@qudian_mobile/qd-react-native-storage",
+  "title": "Qd React Native Storage",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudianapp/qd-react-native-storage.git",
+    "baseUrl": "https://github.com/qudianapp/qd-react-native-storage"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "phoobobo@163.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0"
+  },
+  "devDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0"
+  }
+}
